@@ -27,8 +27,19 @@ A simple command-line Student Record Management System built with Python as a le
 * `return`
 * `try` / `except`
 * Input Validation
-* Code Refactoring
+* List of Dictionaries
 * CRUD Operations
+* Code Refactoring
+* Modular Code Organization
+
+## 📂 Project Structure
+
+```text
+Student-Record-Management/
+│
+├── main.py
+└── README.md
+```
 
 ## ▶️ How to Run
 
@@ -37,7 +48,7 @@ A simple command-line Student Record Management System built with Python as a le
 3. Run the program:
 
 ```bash
-python student_management.py
+python main.py
 ```
 
 ## 📷 Sample Menu
@@ -57,20 +68,22 @@ python student_management.py
 
 Through this project, I learned how to:
 
-* Organize code into reusable functions.
-* Avoid repeating code by creating helper functions.
+* Organize a Python program using reusable functions.
+* Store and manage records using a list of dictionaries.
+* Avoid code repetition by creating helper functions.
 * Handle invalid user input using `try` and `except`.
 * Build a menu-driven command-line application.
+* Implement basic CRUD operations.
 * Improve code readability through refactoring.
+* Break a larger program into smaller, focused functions.
 
 ## 🔮 Future Improvements
 
-* Save records using file handling.
+* Save student records using file handling.
 * Assign a unique Student ID to every student.
-* Search, update, and delete by Student ID.
+* Search, update, and delete students by Student ID.
 * Improve input validation.
-* Convert the project into an Object-Oriented Program (OOP).
-* Build a graphical interface (Tkinter) or a web version.
+* Refactor the application using Object-Oriented Programming (OOP).
 
 ## 👨‍💻 Author
 
